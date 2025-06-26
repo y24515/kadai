@@ -36,7 +36,7 @@ function FindUserPage() {
 
   return (
     <div>
-      <h2>ユーザー検索ページ</h2>
+      <h2>時間検索ページ</h2>
       <input
         type="text"
         placeholder="名前で検索"
