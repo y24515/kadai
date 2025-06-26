@@ -5,9 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* ナビゲーション */
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 入力欄やボタン */
+input[type="text"],
+input[type="submit"],
+button {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* フォーム全体 */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* ボタン */
+button {
+  background-color: #007acc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005f99;
+}
+
+/* テーブル */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* 見出し */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* リスト */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
